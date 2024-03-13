@@ -1,0 +1,44 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculator {
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0%;
+}
+
+#number1,
+#number2 {
+    width: 50%;
+    margin-bottom: 10px;
+    border-color: aqua;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    border-radius: 25px;
+    border: 3px solid black;
+    padding: 50px;
+    width: 500px;
+    height: 250px;
+}
+
+#add{
+    background-color: bisque;
+}
+
+#subtract{
+    background-color: bisque;
+}
